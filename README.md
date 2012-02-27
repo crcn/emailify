@@ -7,25 +7,6 @@
 	- http://www.campaignmonitor.com/css/
 	- http://www.campaignmonitor.com/downloads/documents-tools/campaign-monitor-guide-to-css-in-email-sept-2011.pdf
 
-
-
-### Requirements
-
-- [Node.js](http://nodejs.org/)
-
-### Installation
-
-```
-npm install emailify -g
-```
-
-
-### Command Line
-
-```bash
-emailify -i /my/html/file.html -o /my/html/emailified.html
-```
-
 ### HTML Example
 
 Turns this:
@@ -56,6 +37,29 @@ Into this:
 	</body>
 </html>
 ```
+
+### Testing Compatibility Screenshot
+
+![Alt command line](http://i.imgur.com/ZTPqK.png)
+
+### Requirements
+
+- [Node.js](http://nodejs.org/)
+
+### Installation
+
+```
+npm install emailify -g
+```
+
+
+### Command Line
+
+```bash
+emailify -i /my/html/file.html -o /my/html/emailified.html
+```
+
+
 
 
 ### API
