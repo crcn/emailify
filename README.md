@@ -53,9 +53,9 @@ npm install emailify -g
 ```
 
 
-## Command Line
+### Command Line
 
-### Usage
+#### Usage
 
 ```
 -i [input_html] -o [output_html]
@@ -65,8 +65,6 @@ Options:
   -o, --output  
   -t, --test    [default: false]
 ```
-
- ### Examples
 
 To emailify a document, use this command:
 
