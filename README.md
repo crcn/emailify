@@ -50,7 +50,6 @@ Into this:
 ```html
 <html>
 	<head>
-		
 	</head>
 	<body>
 		<h4 style="color: #ff6600;">orange header</h4>
