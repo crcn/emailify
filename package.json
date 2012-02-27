@@ -10,7 +10,7 @@
   "main": "./lib/index.js",
   "dependencies": {
     "outcome": "0.0.x",
-    "jsdom": "0.2.x",
+    "jsdom": "0.2.10",
     "optimist": "0.3.x"
   },
   "devDependencies": {},
