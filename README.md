@@ -66,11 +66,12 @@ parses html content into email-safe html
 
 ```javascript
 var emailify = require('emailify'),
-fs = require('fs')
+fs           = require('fs')
 
 emailify.parse(fs.readFileSync('/my/email/newsletter.html', 'utf8'), function(err, content) {
 	//send newsletter
 });
+```
 
 #### .load(file, callback)
 
