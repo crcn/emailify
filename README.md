@@ -65,7 +65,6 @@ Options:
   -t, --test    [default: false]
 ```
 
-
  #### Examples
 
 To emailify a document, use this command:
