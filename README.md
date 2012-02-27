@@ -81,6 +81,15 @@ emailify.parse(fs.readFileSync('/my/email/newsletter.html', 'utf8'), function(er
 
 loads a html file
 
+```javascript
+var emailify = require('emailify'),
+fs           = require('fs')
+
+emailify.load('/my/email/newsletter.html', function(err, content) {
+	//send newsletter
+});
+```
+
 
 
 
