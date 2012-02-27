@@ -11,10 +11,13 @@
   "dependencies": {
     "outcome": "0.0.x",
     "jsdom": "0.2.10",
-    "optimist": "0.3.x"
+    "optimist": "0.3.x",
+    "vows": "0.6.x",
+    "plugin": "0.0.x",
+    "step": "0.0.x"
   },
   "devDependencies": {},
   "bin": {
-    "emailify":"./bin/emailify"
+    "emailify": "./bin/emailify"
   }
 }

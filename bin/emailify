@@ -17,7 +17,7 @@ function fixFile(file) {
 }
 
 var on = outcome.error(function(err) {
-	console.error(err);
+	if(err.stack) console.error(err);
 });
 
 emailify.load(fixFile(argv.i), on.success(function(content) {
