@@ -14,7 +14,9 @@
     "optimist": "0.3.x",
     "vows": "0.6.x",
     "plugin": "0.0.x",
-    "step": "0.0.x"
+    "step": "0.0.x",
+    "colors": "0.6.x",
+    "sprintf": "0.1.x"
   },
   "devDependencies": {},
   "bin": {
