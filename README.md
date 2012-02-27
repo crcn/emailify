@@ -55,9 +55,37 @@ npm install emailify -g
 
 ### Command Line
 
+#### Usage
+```
+-i [input_html] -o [output_html]
+
+Options:
+  -i, --input   [required]
+  -o, --output  
+  -t, --test    [default: false]
+```
+
+
+ #### Examples
+
+To emailify a document, use this command:
+
 ```bash
 emailify -i /my/html/file.html -o /my/html/emailified.html
 ```
+
+You can easily test a document by adding the `-t` flag:
+
+```bash
+emailify -i /my/html/file.html -o /my/html/emailified.html -t
+```
+
+Ommit `-o` if you just want to see what emailify produces:
+
+```bash
+emailify -i /my/html/file.html
+```
+
 
 
 

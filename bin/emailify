@@ -3,23 +3,48 @@
 var argv = require('optimist').
 usage('-i [input_html] -o [output_html]').
 demand('i').
+default('o').
+default('t', false).
 alias('i','input').
-alias('','output').
+alias('o','output').
+alias('t','test').
 argv;
 
 var fs = require('fs'),
 emailify = require('../'),
 outcome = require('outcome');
 
+/**
+ */
 
 function fixFile(file) {
+
 	return file.replace(/^\.\//,process.cwd() + '/').replace(/^\~/,process.env.HOME);
+
 }
 
+/**
+ */
+
 var on = outcome.error(function(err) {
+
 	if(err.stack) console.error(err);
+
 });
 
-emailify.load(fixFile(argv.i), { test: true }, on.success(function(content) {
-	if(argv.o) fs.writeFile(fixFile(argv.o), content, on);
+/**
+ */
+
+emailify.load(fixFile(argv.i), { test: argv.t }, on.success(function(content) {
+
+	if(argv.o) {
+
+		fs.writeFile(fixFile(argv.o), content, on);
+
+	} else
+	if(!argv.t) {
+
+		console.log(content);
+	}
+
 }));
