@@ -60,10 +60,6 @@ Into this:
 
 ### API
 
-#### .load(file, callback)
-
-loads a html file
-
 #### .parse(content, callback)
 
 parses html content into email-safe html
@@ -75,5 +71,11 @@ fs = require('fs')
 emailify.parse(fs.readFileSync('/my/email/newsletter.html', 'utf8'), function(err, content) {
 	//send newsletter
 });
+
+#### .load(file, callback)
+
+loads a html file
+
+
 
 
