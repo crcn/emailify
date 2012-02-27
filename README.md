@@ -21,6 +21,23 @@ fs = require('fs')
 emailify.parse(fs.readFileSync('/my/email/newsletter.html', 'utf8'), function(err, content) {
 	//send newsletter
 });
+
+
+//TODO
+var parser = emailify.parse(fs.readFileSync('/my/email/newsletter.html', 'utf8'));
+
+parser.on('complete', function() {
+	
+});
+
+parser.on('warning', function(message) {
+	
+});
+
+parser.on('error', function(message) {
+	
+});
+
 ```
 
 ### API
