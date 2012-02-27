@@ -62,7 +62,7 @@ emailify -i /my/html/file.html -o /my/html/emailified.html
 
 
 
-### API
+### Node.js API
 
 #### .parse(content, callback)
 
