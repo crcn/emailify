@@ -27,16 +27,17 @@ function fixFile(file) {
  */
 
 var on = outcome.error(function(err) {
-
-	if(err.stack) console.error(err);
+	
+	console.error(err);
 
 });
 
 /**
  */
 
-emailify.load(fixFile(argv.i), { test: argv.t }, on.success(function(content) {
 
+emailify.load(fixFile(argv.i), { test: argv.t }, on.success(function(content) {
+	
 	if(argv.o) {
 
 		fs.writeFile(fixFile(argv.o), content, on);
