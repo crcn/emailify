@@ -17,10 +17,6 @@
 npm install emailify -g
 ```
 
-### TODO 
-
-- see 
-	
 
 ### Command Line Example
 
