@@ -56,6 +56,7 @@ npm install emailify -g
 ### Command Line
 
 #### Usage
+
 ```
 -i [input_html] -o [output_html]
 
