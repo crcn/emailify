@@ -2,17 +2,33 @@
 
 ### Features
 
-- associated style sheets to dom elements
+- Wopies `<style />`, and `<link />` data to associated elements.
+- HTML compatibility checking for popular email clients. Taken from:
+	- http://www.campaignmonitor.com/css/
+	- http://www.campaignmonitor.com/downloads/documents-tools/campaign-monitor-guide-to-css-in-email-sept-2011.pdf
 
+### Requirements
+
+- [Node.js](http://nodejs.org/)
+
+### Installation
+
+```
+npm install emailify -g
+```
 
 ### TODO 
 
-- warnings for elements not compatible with some email clients
-- command line
-- see http://www.campaignmonitor.com/css/
+- see 
+	
 
+### Command Line Example
 
-### Example
+```bash
+emailify -i /my/html/file.html -o /my/html/emailified.html
+```
+
+### JavaScript Example
 
 ```javascript
 var emailify = require('emailify'),
@@ -21,23 +37,6 @@ fs = require('fs')
 emailify.parse(fs.readFileSync('/my/email/newsletter.html', 'utf8'), function(err, content) {
 	//send newsletter
 });
-
-
-//TODO
-var parser = emailify.parse(fs.readFileSync('/my/email/newsletter.html', 'utf8'));
-
-parser.on('complete', function() {
-	
-});
-
-parser.on('warning', function(message) {
-	
-});
-
-parser.on('error', function(message) {
-	
-});
-
 ```
 
 ### API
