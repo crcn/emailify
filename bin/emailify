@@ -1,0 +1,25 @@
+#!/usr/bin/env node
+
+var argv = require('optimist').
+usage('-i [input_html] -o [output_html]').
+demand(['i','o']).
+alias('i','input').
+alias('o','output').
+argv;
+
+var fs = require('fs'),
+emailify = require('../'),
+outcome = require('outcome');
+
+
+function fixFile(file) {
+	return file.replace(/^\.\//,process.cwd() + '/').replace(/^\~/,process.env.HOME);
+}
+
+var on = outcome.error(function(err) {
+	console.error(err);
+});
+
+emailify.load(fixFile(argv.i), on.success(function(content) {
+	fs.writeFile(fixFile(argv.o), content, on);
+}));

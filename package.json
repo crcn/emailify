@@ -1,0 +1,20 @@
+{
+  "author": "Craig Condon",
+  "name": "emailify",
+  "description": "Make HTML pages email-safe",
+  "version": "0.0.1",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/crcn/emailify.git"
+  },
+  "main": "./lib/index.js",
+  "dependencies": {
+    "outcome": "0.0.x",
+    "jsdom": "0.2.x",
+    "optimist": "0.3.x"
+  },
+  "devDependencies": {},
+  "bin": {
+    "emailify":"./bin/emailify"
+  }
+}
