@@ -73,7 +73,7 @@ To emailify a document, use this command:
 emailify -i /my/html/file.html -o /my/html/emailified.html
 ```
 
-You can easily test a document by adding the `-t` flag:
+You can easily test a document for compatibility by adding the `-t` flag:
 
 ```bash
 emailify -i /my/html/file.html -o /my/html/emailified.html -t
