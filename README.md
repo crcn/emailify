@@ -40,7 +40,7 @@ Into this:
 
 ### Testing Compatibility Screenshot
 
-![Alt command line](http://i.imgur.com/o6zu5.png)
+![Alt command line](http://i.imgur.com/xpsyQ.png)
 
 ### Requirements
 
