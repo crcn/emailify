@@ -41,7 +41,7 @@ emailify.parse(fs.readFileSync('/my/email/newsletter.html', 'utf8'), function(er
 
 loads a html file
 
-### .parse(content, callback)
+#### .parse(content, callback)
 
 parses html content into email-safe html
 
