@@ -37,7 +37,6 @@ Turns this:
 			h4 {
 				color: #ff6600;
 			}
-
 		</style>
 	</head>
 	<body>
@@ -59,9 +58,6 @@ Into this:
 </html>
 ```
 
-
-
-```
 
 ### API
 
