@@ -2,7 +2,7 @@
 
 ### Features
 
-- Wopies `<style />`, and `<link />` data to associated elements.
+- Copies `<style />`, and `<link />` data to associated elements.
 - HTML compatibility checking for popular email clients. Taken from:
 	- http://www.campaignmonitor.com/css/
 	- http://www.campaignmonitor.com/downloads/documents-tools/campaign-monitor-guide-to-css-in-email-sept-2011.pdf
