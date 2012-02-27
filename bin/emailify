@@ -20,6 +20,6 @@ var on = outcome.error(function(err) {
 	if(err.stack) console.error(err);
 });
 
-emailify.load(fixFile(argv.i), on.success(function(content) {
+emailify.load(fixFile(argv.i), { test: true }, on.success(function(content) {
 	fs.writeFile(fixFile(argv.o), content, on);
 }));
