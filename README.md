@@ -62,8 +62,6 @@ Into this:
 
 #### .load(file, callback)
 
-
-
 loads a html file
 
 #### .parse(content, callback)
