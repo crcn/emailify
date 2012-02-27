@@ -7,6 +7,8 @@
 	- http://www.campaignmonitor.com/css/
 	- http://www.campaignmonitor.com/downloads/documents-tools/campaign-monitor-guide-to-css-in-email-sept-2011.pdf
 
+
+
 ### Requirements
 
 - [Node.js](http://nodejs.org/)
@@ -18,13 +20,59 @@ npm install emailify -g
 ```
 
 
-### Command Line Example
+### Command Line
 
 ```bash
 emailify -i /my/html/file.html -o /my/html/emailified.html
 ```
 
-### JavaScript Example
+### HTML Example
+
+Turns this:
+
+```html
+<html>
+	<head>
+		<style>
+			h4 {
+				color: #ff6600;
+			}
+
+		</style>
+	</head>
+	<body>
+		<h4>orange header</h4>
+	</body>
+</html>
+```
+
+Into this:
+```html
+<html>
+	<head>
+		
+	</head>
+	<body>
+		<h4 style="color: #ff6600;">orange header</h4>
+	</body>
+</html>
+```
+
+
+
+```
+
+### API
+
+#### .load(file, callback)
+
+
+
+loads a html file
+
+#### .parse(content, callback)
+
+parses html content into email-safe html
 
 ```javascript
 var emailify = require('emailify'),
@@ -33,16 +81,5 @@ fs = require('fs')
 emailify.parse(fs.readFileSync('/my/email/newsletter.html', 'utf8'), function(err, content) {
 	//send newsletter
 });
-```
-
-### API
-
-#### .load(file, callback)
-
-loads a html file
-
-#### .parse(content, callback)
-
-parses html content into email-safe html
 
 

@@ -2,9 +2,9 @@
 
 var argv = require('optimist').
 usage('-i [input_html] -o [output_html]').
-demand(['i','o']).
+demand('i').
 alias('i','input').
-alias('o','output').
+alias('','output').
 argv;
 
 var fs = require('fs'),
@@ -21,5 +21,5 @@ var on = outcome.error(function(err) {
 });
 
 emailify.load(fixFile(argv.i), { test: true }, on.success(function(content) {
-	fs.writeFile(fixFile(argv.o), content, on);
+	if(argv.o) fs.writeFile(fixFile(argv.o), content, on);
 }));
