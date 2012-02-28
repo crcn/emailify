@@ -1,4 +1,11 @@
-all: test-1
+all: node web test-1
+
+
+node:
+	mesh merge node
+
+web:
+	mesh make web
 
 
 test-1: 
