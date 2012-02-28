@@ -97,14 +97,14 @@ parses html content into email-safe html
 
 - `content` - the html content
 - `options`
-	`test` - runs test against code for compatibility
+	- `test` - runs test against code for compatibility
 
 
 ```javascript
 var emailify = require('emailify'),
 fs           = require('fs')
 
-emailify.parse(fs.readFileSync('/my/email/newsletter.html', 'utf8'), function(err, content, warnings) {
+emailify.parse(fs.readFileSync('/my/email/newsletter.html', 'utf8'), function(err, content) {
 	//send newsletter
 });
 ```
@@ -118,7 +118,7 @@ loads a html file
 var emailify = require('emailify'),
 fs           = require('fs')
 
-emailify.load('/my/email/newsletter.html', function(err, content, warnings) {
+emailify.load('/my/email/newsletter.html', { test: true }, function(err, content, warnings) {
 	//send newsletter
 });
 ```
