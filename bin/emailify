@@ -10,9 +10,10 @@ alias('o','output').
 alias('t','test').
 argv;
 
-var fs = require('fs'),
+var fs   = require('fs'),
 emailify = require('../'),
-outcome = require('outcome');
+outcome  = require('outcome'),
+celeri   = require('celeri');
 
 /**
  */
@@ -27,7 +28,7 @@ function fixFile(file) {
  */
 
 var on = outcome.error(function(err) {
-	
+
 	console.error(err);
 
 });
@@ -36,8 +37,8 @@ var on = outcome.error(function(err) {
  */
 
 
-emailify.load(fixFile(argv.i), { test: argv.t }, on.success(function(content) {
-	
+emailify.load(fixFile(argv.i), { test: argv.t }, on.success(function(content, warnings) {
+
 	if(argv.o) {
 
 		fs.writeFile(fixFile(argv.o), content, on);
@@ -48,4 +49,45 @@ emailify.load(fixFile(argv.i), { test: argv.t }, on.success(function(content) {
 		console.log(content);
 	}
 
+	printWarnings(warnings);
+
 }));
+
+
+/**
+ */
+
+function printWarnings(warnings) {
+
+	if(!warnings.length) return;
+
+	var toPrint = [];
+
+	for(var i = warnings.length; i--;) {
+		var warning = warnings[i];
+
+		toPrint.push({
+			type: warning.type,
+			platforms: warning.platforms.join("\n "),
+			value: warning.value
+		});
+	}
+
+
+	console.log('\n');
+	console.log('   Unsupported Clients'.bold);
+
+	celeri.table(toPrint, {
+		columns: {
+			type: 9,
+			value: 15,
+			platforms: 26
+		},
+		pad: {
+			'left': 3
+		},
+		horz:' ',
+		fixed: true
+	});
+	console.log('\n');
+}
