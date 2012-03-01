@@ -1,0 +1,1713 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"MAX_",
+				"MAX_PROMO_AGE_DAYS"
+			],
+			[
+				"required",
+				"requiredPermissions"
+			],
+			[
+				"re",
+				"result"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "/tmp/subl stdin MMCeDJ.txt",
+			"settings":
+			{
+				"buffer_size": 0,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "README.md",
+			"settings":
+			{
+				"buffer_size": 2077,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "lib/index.js",
+			"settings":
+			{
+				"buffer_size": 1735,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"settings":
+			{
+				"buffer_size": 0,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"settings":
+			{
+				"buffer_size": 0,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "lib/test/utils.js",
+			"settings":
+			{
+				"buffer_size": 476,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"settings":
+			{
+				"buffer_size": 0,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "lib/test/suite.js",
+			"settings":
+			{
+				"buffer_size": 1317,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "var eachCssRule = require('../../eachCssRule'),\nassert = require('assert'),\nsprintf = require('sprintf').sprintf\n\nmodule.exports = {\n	'Selectors': {\n		'are valid': function(topic) {\n\n\n			var batch = {};\n\n			eachCssRule(topic, function(rule) {\n\n				batch[sprintf('\"%s\" is is valid', rule.selectorText.bold)] = function(topic) {\n					console.log(\"G\")\n					assert.isTrue(!!topic.$(rule.selectorText).length);\n				}\n			});\n\n			console.log(\"BAT\")\n\n			console.log(this.suite)\n\n			this.suite.addBatch(batch);\n		}\n	}\n}",
+			"file": "lib/test/stylesheets/test-selectors.js",
+			"file_size": 494,
+			"file_write_time": 1330332450000000,
+			"settings":
+			{
+				"buffer_size": 510,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "lib/test/selectorTestBatch.js",
+			"settings":
+			{
+				"buffer_size": 370,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "lib/test/eachCssRule",
+			"settings":
+			{
+				"buffer_size": 0,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "lib/eachCssRule.js",
+			"settings":
+			{
+				"buffer_size": 155,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"settings":
+			{
+				"buffer_size": 0,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"settings":
+			{
+				"buffer_size": 0,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "lib/test/Outlook 2007-2010/test-outlook.js",
+			"settings":
+			{
+				"buffer_size": 220,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "lib/test/test-basic.js",
+			"settings":
+			{
+				"buffer_size": 86,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "lib/lint.js",
+			"settings":
+			{
+				"buffer_size": 482,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "lib/jquery-1.5.js",
+			"settings":
+			{
+				"buffer_size": 211977,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "examples/hello.html",
+			"settings":
+			{
+				"buffer_size": 0,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "examples/test-1/test-1.html",
+			"settings":
+			{
+				"buffer_size": 0,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "bin/emailify",
+			"settings":
+			{
+				"buffer_size": 1288,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "package.json",
+			"settings":
+			{
+				"buffer_size": 526,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "examples/test-1/index.html",
+			"settings":
+			{
+				"buffer_size": 177,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "lib/test/index.js",
+			"settings":
+			{
+				"buffer_size": 557,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "lib/test/compatibility/test-iphone-ipad.js",
+			"settings":
+			{
+				"buffer_size": 172,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "lib/test/compatibility/test-apple-mail-4.js",
+			"settings":
+			{
+				"buffer_size": 157,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "lib/test/compatibility/test-yahoo-mail.js",
+			"settings":
+			{
+				"buffer_size": 379,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "lib/test/compatibility/test-android.js",
+			"settings":
+			{
+				"buffer_size": 597,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "lib/test/suite.js",
+			"settings":
+			{
+				"buffer_size": 197,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "lib/test/compatibility/test-gmail.js",
+			"settings":
+			{
+				"buffer_size": 552,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "lib/test/compatibility/test-hotmail.js",
+			"settings":
+			{
+				"buffer_size": 343,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "var assert = require('assert'),\nutils = require('../../utils');\n\n\nmodule.exports = {\n	'Outlook Express 2007-2010': {\n		'Selectors': utils.doesNotContainStylesBatch(\n\n			//BOX\n			'box-shadow',\n			'height',\n			'max-width',\n			'max-height',\n\n			//TEXT\n			'direction',\n			'text-overflow',\n			'text-shadow',\n			'word-spacing',\n			'word-wrap',\n			'vertical-align',\n\n			//BG\n			'background-image',\n			'background-position',\n			'background-repeat',\n			'opacity',\n\n			//POSITION\n			'bottom',\n			'clear',\n			'clip',\n			'cursor',\n			'display',\n			'float',\n			'left',\n			'opacity',\n			'outline',\n			'overflow',\n			'position',\n			'resize',\n			'right',\n			'top',\n			'visibility',\n\n			//LISTS\n			'list-style-image',\n			'list-style-position',\n			'list-style-type',\n\n			//TABLE\n			'border-spacing',\n			'caption-side',\n			'empty-cells'),\n\n\n	}\n}",
+			"file": "lib/test/compatibility/Outlook 2007-2010/test-outlook-2010-2010.js",
+			"file_size": 826,
+			"file_write_time": 1330367652000000,
+			"settings":
+			{
+				"buffer_size": 826,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "lib/test/selectors/test-selectors.js",
+			"settings":
+			{
+				"buffer_size": 331,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "lib/test/compatibility/test-outlook-2003.js",
+			"settings":
+			{
+				"buffer_size": 381,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "var assert = require('assert');\n\nmodule.exports = {\n\n	'name': 'Outlook Express 2007/2010',\n	'test': {\n\n		'style': [\n\n\n			//TEXT\n			'direction',\n			'text-overflow',\n			'text-shadow',\n			'word-spacing',\n			'word-wrap',\n			'vertical-align',\n\n			//BG\n			'background-image',\n			'background-position',\n			'background-repeat',\n			'opacity',\n\n			//BOX\n			'box-shadow',\n			'height',\n			'max-width',\n			'max-height',\n\n			//POSITION\n			'bottom',\n			'clear',\n			'clip',\n			'cursor',\n			'display',\n			'float',\n			'left',\n			'opacity',\n			'outline',\n			'overflow',\n			'position',\n			'resize',\n			'right',\n			'top',\n			'visibility',\n\n			//LISTS\n			'list-style-image',\n			'list-style-position',\n			'list-style-type',\n\n			//TABLE\n			'border-spacing',\n			'caption-side',\n			'empty-cells']\n\n	}\n\n};",
+			"file": "lib/test/compatibility/test-outlook-2010-2010.js",
+			"file_size": 778,
+			"file_write_time": 1330390375000000,
+			"settings":
+			{
+				"buffer_size": 778,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "makefile",
+			"settings":
+			{
+				"buffer_size": 96,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "examples/test-1/index.out.html",
+			"settings":
+			{
+				"buffer_size": 121,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/node web/test/index.js",
+			"settings":
+			{
+				"buffer_size": 600,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 136.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/craig/Dropbox/Developer/Public/emailify/examples/test-1/index.out.html",
+		"/Users/craig/Dropbox/Developer/Jobs/Spice/private/spice.io/package.json",
+		"/Users/craig/Dropbox/Developer/Jobs/Spice/private/spice.io/beans/feeds.service.core/index.js",
+		"/Users/craig/Dropbox/Developer/Jobs/Spice/private/spice.io/beans/feeds.stream.core/index.js",
+		"/Users/craig/Dropbox/Developer/Jobs/Spice/private/spice.io/beans/service.part.youtube/index.js",
+		"/Users/craig/Dropbox/Developer/Jobs/Spice/private/spice.io/beans/aug.nectars/nectar.js",
+		"/Users/craig/Dropbox/Developer/Jobs/Spice/private/spice.io/beans/aug.nectars/index.js",
+		"/Users/craig/Dropbox/Developer/Jobs/Spice/private/spice.io/beans/feeds.stream.core/db/manager.js",
+		"/Users/craig/Dropbox/Developer/Jobs/Spice/private/spice.io/beans/feeds.stream.core/db/models.js",
+		"/Users/craig/Dropbox/Developer/Jobs/Spice/private/spice.io/beans/feeds.stream.core/loader/index.js",
+		"/Users/craig/Dropbox/Developer/Jobs/Spice/private/spice.io/beans/feeds.sync/index.js",
+		"/Users/craig/Dropbox/Developer/Jobs/Spice/private/spice.io/beans/groups.core/index.js",
+		"/Users/craig/Dropbox/Developer/Jobs/Spice/private/spice.io/beans/groups.core/delegate.js",
+		"/Users/craig/Dropbox/Developer/Jobs/Spice/private/spice.io/beans/groups.part.feeds/index.js",
+		"/Users/craig/Dropbox/Developer/Public/beanpoll.js/project-sublime-project",
+		"/Users/craig/Dropbox/Developer/Jobs/Spice/private/spice.io/beans/service.part.rss/index.js",
+		"/Users/craig/Dropbox/Developer/Jobs/Spice/private/spice.io/beans/feeds.stream.core/db/delegates/promotions/index.js",
+		"/Users/craig/Dropbox/Developer/Jobs/Spice/private/spice.io/beans/scraper.part.diffbot/index.js",
+		"/tmp/subl stdin ZSqzPA.txt",
+		"/Users/craig/Dropbox/Developer/Jobs/Spice/private/spice.io/beans/groups.part.saved.subscription.email/index.js",
+		"/Users/craig/Dropbox/Developer/Jobs/Spice/private/spice.io/beans/env.core/index.js",
+		"/Users/craig/Dropbox/Developer/Jobs/Spice/private/spice.io/beans/xdomain/index.js",
+		"/tmp/subl stdin 0Do39h.txt",
+		"/tmp/subl stdin xwGaoR.txt",
+		"/Users/craig/Dropbox/Developer/Jobs/Spice/private/spice.io/beans/spice.io.core/index.js",
+		"/Users/craig/Dropbox/Developer/Jobs/Spice/private/spice.io/beans/groups.part.saved.subscription.core/index.js",
+		"/tmp/subl stdin nrY7Ah.txt",
+		"/Users/craig/Dropbox/Developer/Jobs/Spice/private/spice.io/beans/beta.signup/models.js",
+		"/Users/craig/Dropbox/Developer/Jobs/Spice/private/spice.io/beans/beta.signup/model.js",
+		"/Users/craig/Dropbox/Developer/Jobs/Spice/private/spice.io/beans/feeds.stream.core/db/delegates/feeds.js",
+		"/tmp/subl stdin iG1wyO.txt",
+		"/tmp/subl stdin keh3SP.txt",
+		"/Users/craig/Dropbox/Developer/Jobs/Spice/private/spice.io/beans/groups.part.saved.core/index.js",
+		"/Users/craig/Dropbox/Developer/Jobs/Spice/private/spice.io/beans/validate.core/index.js",
+		"/Users/craig/Dropbox/Developer/Jobs/Spice/private/spice.io/bootstrap.js",
+		"/Users/craig/Dropbox/Developer/Jobs/Spice/private/spice.io/beans/fts.indextank/index.js",
+		"/Users/craig/Dropbox/Developer/Jobs/Spice/private/spice.io/beans/account.posting/index.js",
+		"/Users/craig/Dropbox/Developer/Jobs/Spice/private/spice.io/beans/account.storage/index.js",
+		"/Users/craig/Dropbox/Developer/Jobs/Spice/private/spice.io/beans/auth.profile/index.js",
+		"/Users/craig/Dropbox/Developer/Jobs/Spice/private/spice.io/beans/auth.session/index.js",
+		"/Users/craig/Dropbox/Developer/Jobs/Spice/private/spice.io/beans/auth.social/index.js",
+		"/Users/craig/Dropbox/Developer/Jobs/Spice/private/spice.io/beans/beta.signup/index.js",
+		"/Users/craig/Dropbox/Developer/Jobs/Spice/private/spice.io/beans/cache.mongo/index.js",
+		"/Users/craig/Dropbox/Developer/Jobs/Spice/private/spice.io/beans/comments.core/index.js",
+		"/Users/craig/Dropbox/Developer/Jobs/Spice/private/spice.io/beans/env/index.js",
+		"/Users/craig/Dropbox/Developer/Jobs/Spice/private/spice.io/beans/feeds.service.core/manager.js",
+		"/Users/craig/Dropbox/Developer/Jobs/Spice/private/spice.io/beans/email.postmark/index.js",
+		"/Users/craig/Dropbox/Developer/Jobs/Spice/private/spice.io/beans/feeds.recommentations.core/index.js",
+		"/Users/craig/Dropbox/Developer/Jobs/Spice/private/spice.io/node_modules/xml2json/lib/xml2json.js",
+		"/tmp/subl stdin iNkTyy.txt",
+		"/Volumes/craig/Dropbox/Developer/Jobs/Spice/private/spice.io/beans/email.postmark/index.js",
+		"/Volumes/craig/Dropbox/Developer/Jobs/Spice/private/spice.io/beans/groups.part.saved.core/index.js",
+		"/Volumes/craig/Dropbox/Developer/Jobs/Spice/private/spice.io/beans/groups.part.saved.subscription.core/index.js",
+		"/Volumes/minimac/Users/craig/Dropbox/Developer/Jobs/Spice/private/teamdigest/lib/back/views/defaultNewsletter.mu",
+		"/Volumes/craig/Dropbox/Developer/Jobs/Spice/private/spice.io/beans/groups.core/index.js",
+		"/Volumes/craig/Dropbox/Developer/Jobs/Spice/private/spice.io/beans/auth.session/index.js",
+		"/Volumes/craig/Dropbox/Developer/Jobs/Spice/private/spice.io/beans/auth.session/model.js",
+		"/Volumes/craig/Dropbox/Developer/Jobs/Spice/private/spice.io/bootstrap.js",
+		"/Volumes/craig/Dropbox/Developer/Jobs/Spice/private/spice.io/beans/spice.io.core/index.js",
+		"/Volumes/craig/Dropbox/Developer/Jobs/Spice/private/spice.io/package.json",
+		"/Volumes/craig/Dropbox/Developer/Jobs/Spice/private/spice.io/beans/auth.profile/permissions.js",
+		"/tmp/subl stdin i8AsYs.txt",
+		"/tmp/subl stdin XyaQz8.txt",
+		"/Volumes/craig/Dropbox/Developer/Jobs/Spice/private/spice.io/beans/validate.core/index.js",
+		"/tmp/subl stdin 5OZsnb.txt",
+		"/tmp/subl stdin 0IdbEd.txt",
+		"/tmp/subl stdin 1QggJr.txt",
+		"/tmp/subl stdin Yb5q6G.txt",
+		"/Volumes/craig/Dropbox/Developer/Jobs/Spice/private/spice.io/beans/beta.signup/index.js",
+		"/Volumes/craig/Dropbox/Developer/Jobs/Spice/private/spice.io/beans/beta.signup/model.js",
+		"/tmp/subl stdin VmT1hW.txt",
+		"/Volumes/craig/Dropbox/Developer/Jobs/Spice/private/spice.io/beans/auth.profile/index.js",
+		"/Volumes/craig/Dropbox/Developer/Jobs/Spice/private/spice.io/beans/auth.profile/model.js",
+		"/Users/craigcondon/Library/Application Support/Sublime Text 2/Packages/User/Base File.sublime-settings",
+		"/Users/craig/.cupboard/projects/spice.io/beans/groups.core/delegate.js",
+		"/tmp/subl stdin OQlyq7.txt",
+		"/Users/craig/.cupboard/projects/spice.io/beans/groups.core/index.js",
+		"/Users/craig/.cupboard/projects/spice.io/beans/groups.part.saved.core/index.js",
+		"/tmp/subl stdin qsZnjK.txt",
+		"/Users/craig/.cupboard/projects/spice.io/package.json",
+		"/Users/craig/.cupboard/projects/spice.io/beans/groups.part.saved.subscription.core/index.js",
+		"/Users/craig/.cupboard/projects/spice.io/beans/groups.part.saved.subscription.email/views.js",
+		"/tmp/subl stdin Zr54LN.txt",
+		"/Users/craig/.cupboard/projects/spice.io/beans/groups.part.saved.subscription.email/index.js",
+		"/Users/craig/.cupboard/projects/spice.io/beans/spice.io.core/index.js",
+		"/Volumes/minimac/Users/craig/Dropbox/Developer/Jobs/Spice/private/spice.io/beans/spice.io.core/index.js",
+		"/Users/craig/.cupboard/projects/spice.io/beans/scraper.core/index.js",
+		"/Users/craig/.cupboard/projects/spice.io/beans/scraper.part.diffbot/index.js",
+		"/Users/craig/.cupboard/projects/spice.io/beans/scraper.core/models.js",
+		"/Users/craig/.cupboard/projects/spice.io/beans/groups.part.saved.core/delegates.js",
+		"/tmp/subl stdin Y5cgQv.txt",
+		"/tmp/subl stdin zucUyb.txt",
+		"/tmp/subl stdin bQj27x.txt",
+		"/tmp/subl stdin kEyqmE.txt",
+		"/tmp/subl stdin 4NoBGn.txt",
+		"/tmp/subl stdin gglrIy.txt",
+		"/Users/craig/.cupboard/projects/spice.io/beans/groups.part.saved.subscription.core/delegate.js",
+		"/tmp/subl stdin 0CxPWS.txt",
+		"/tmp/subl stdin JM3wx6.txt",
+		"/tmp/subl stdin igWXJJ.txt",
+		"/Users/craig/.cupboard/projects/spice.io/beans/auth.profile/index.js",
+		"/tmp/subl stdin a4gRDo.txt",
+		"/Users/craig/.cupboard/projects/spice.io/bootstrap.js",
+		"/tmp/subl stdin jBgTW0.txt",
+		"/Users/craig/.cupboard/projects/spice.io/beans/account.storage/models.js"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+			"/Volumes/craig/Dropbox/Developer/Jobs/Spice/private/spice.io/beans"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"_url",
+			"unsubscribeUrl",
+			"finish",
+			"addFeedToPromotion",
+			"addNextPromotion",
+			"res",
+			"cleanNextPromotionMedia",
+			"SiteImageCacher",
+			"_save",
+			"SiteImageCacher",
+			"tryUsing",
+			"push in",
+			"addNextPromotion",
+			"add/next/promotion",
+			"add/next",
+			"cacheFeed",
+			"hasPromoCacher",
+			"SmartCacher",
+			"SmartC",
+			"getImageSize",
+			"getFrequency",
+			"findLocation",
+			"netBalancer",
+			"getImageSize",
+			"worker",
+			".message",
+			"-method",
+			"fetching",
+			"\n        \"remoteName\": \"thyme\",",
+			"fetching",
+			"db",
+			"cleanUpDatabase",
+			"DelegateManager",
+			"Manager",
+			"path:",
+			"path",
+			".app",
+			"va",
+			"router",
+			"beanpoll-http",
+			"send/sub",
+			"send/subscription/by/group",
+			"send/subs",
+			"* * * * *",
+			"* * *",
+			"groups/",
+			"groups/:group",
+			"startSlave",
+			"DELETE",
+			"groups/",
+			"tokenGranter",
+			"username",
+			"token:",
+			"granter)",
+			"granter",
+			"pkg",
+			"path.",
+			"router",
+			"bean.http",
+			"err, fe",
+			"feeder",
+			"err, ",
+			"err, f",
+			".add(",
+			"transformer",
+			"feeds'",
+			"vine",
+			"credentials",
+			"getToken",
+			"getToken(",
+			"try",
+			"c_feedData",
+			"OverUsedImageCacher",
+			"checkAt",
+			"PromotedItemsModel",
+			"models",
+			"console.",
+			"does NOT",
+			"'feeds",
+			"feeds'",
+			"feeds(",
+			"transformer.add",
+			"collect",
+			"feeds",
+			"manager.",
+			"manager.tra",
+			".transform",
+			".test",
+			"getSearch",
+			"validate/publicGr",
+			"/:group",
+			"/:groups",
+			"console.l",
+			"filterOwnedScopes",
+			"console.l",
+			"filterOwnedScopes",
+			"grantAccess",
+			"getProfile",
+			"grant",
+			"filterOwnedScopes",
+			"grantAcc",
+			"grant",
+			"grant/",
+			"collections",
+			"category",
+			"loadGroup",
+			"credentials",
+			"-perm",
+			"groups",
+			"granter",
+			"getToken",
+			"owner",
+			"secret",
+			"owner",
+			"g",
+			"owner",
+			"granter",
+			"secret",
+			"owner",
+			"-perm",
+			"signupToken",
+			"my/group",
+			"validate/public",
+			"groups/",
+			"loading ",
+			"channel",
+			"Profile do",
+			"Profile.findOn"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"collect",
+			" {\\n",
+			" {\\n\\n",
+			" {\\n",
+			" {",
+			"{\\n",
+			" {\\n",
+			" {\\s",
+			" {",
+			"router"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 37,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "/tmp/subl stdin MMCeDJ.txt",
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "README.md",
+					"settings":
+					{
+						"buffer_size": 2077,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1781,
+								1781
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Markdown/Markdown.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 1023.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "lib/index.js",
+					"settings":
+					{
+						"buffer_size": 1735,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1422,
+								1422
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 1203.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"default_dir": "/Users/craig/Dropbox/Developer/Public/emailify/lib/test/helpers",
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"default_dir": "/Users/craig/Dropbox/Developer/Public/emailify/lib/test/helpers",
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "lib/test/utils.js",
+					"settings":
+					{
+						"buffer_size": 476,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								203,
+								126
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"default_dir": "/Users/craig/Dropbox/Developer/Public/emailify/lib/test",
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "lib/test/suite.js",
+					"settings":
+					{
+						"buffer_size": 1317,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1135,
+								1135
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 528.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "lib/test/stylesheets/test-selectors.js",
+					"settings":
+					{
+						"buffer_size": 510,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								348,
+								332
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "lib/test/selectorTestBatch.js",
+					"settings":
+					{
+						"buffer_size": 370,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								352,
+								352
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 10,
+					"file": "lib/test/eachCssRule",
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 11,
+					"file": "lib/eachCssRule.js",
+					"settings":
+					{
+						"buffer_size": 155,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								155,
+								155
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 12,
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"default_dir": "/Users/craig/Dropbox/Developer/Public/emailify/lib",
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 13,
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"default_dir": "/Users/craig/Dropbox/Developer/Public/emailify/lib/test",
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 14,
+					"file": "lib/test/Outlook 2007-2010/test-outlook.js",
+					"settings":
+					{
+						"buffer_size": 220,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								206,
+								206
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 15,
+					"file": "lib/test/test-basic.js",
+					"settings":
+					{
+						"buffer_size": 86,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								77,
+								77
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 16,
+					"file": "lib/lint.js",
+					"settings":
+					{
+						"buffer_size": 482,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								338,
+								338
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 17,
+					"file": "lib/jquery-1.5.js",
+					"settings":
+					{
+						"buffer_size": 211977,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								211216,
+								211216
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 121710.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 18,
+					"file": "examples/hello.html",
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 19,
+					"file": "examples/test-1/test-1.html",
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 20,
+					"file": "bin/emailify",
+					"settings":
+					{
+						"buffer_size": 1288,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								847,
+								847
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 453.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 21,
+					"file": "package.json",
+					"settings":
+					{
+						"buffer_size": 526,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								233,
+								233
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JSON.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 22,
+					"file": "examples/test-1/index.html",
+					"settings":
+					{
+						"buffer_size": 177,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								101,
+								101
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 23,
+					"file": "lib/test/index.js",
+					"settings":
+					{
+						"buffer_size": 557,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								335,
+								335
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 24,
+					"file": "lib/test/compatibility/test-iphone-ipad.js",
+					"settings":
+					{
+						"buffer_size": 172,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								80,
+								80
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 25,
+					"file": "lib/test/compatibility/test-apple-mail-4.js",
+					"settings":
+					{
+						"buffer_size": 157,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								75,
+								75
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 26,
+					"file": "lib/test/compatibility/test-yahoo-mail.js",
+					"settings":
+					{
+						"buffer_size": 379,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								74,
+								74
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 27,
+					"file": "lib/test/compatibility/test-android.js",
+					"settings":
+					{
+						"buffer_size": 597,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								69,
+								69
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 28,
+					"file": "lib/test/suite.js",
+					"settings":
+					{
+						"buffer_size": 197,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								54,
+								54
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 29,
+					"file": "lib/test/compatibility/test-gmail.js",
+					"settings":
+					{
+						"buffer_size": 552,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								68,
+								68
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 30,
+					"file": "lib/test/compatibility/test-hotmail.js",
+					"settings":
+					{
+						"buffer_size": 343,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								70,
+								70
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 31,
+					"file": "lib/test/compatibility/Outlook 2007-2010/test-outlook-2010-2010.js",
+					"settings":
+					{
+						"buffer_size": 826,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								454,
+								454
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 59.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 32,
+					"file": "lib/test/selectors/test-selectors.js",
+					"settings":
+					{
+						"buffer_size": 331,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								283,
+								283
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 33,
+					"file": "lib/test/compatibility/test-outlook-2003.js",
+					"settings":
+					{
+						"buffer_size": 381,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								87,
+								87
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 34,
+					"file": "lib/test/compatibility/test-outlook-2010-2010.js",
+					"settings":
+					{
+						"buffer_size": 778,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								88,
+								88
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 35,
+					"file": "makefile",
+					"settings":
+					{
+						"buffer_size": 96,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								92,
+								60
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Makefile/Makefile.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 36,
+					"file": "examples/test-1/index.out.html",
+					"settings":
+					{
+						"buffer_size": 121,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 37,
+					"file": "src/node web/test/index.js",
+					"settings":
+					{
+						"buffer_size": 600,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								382,
+								382
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 28.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"replace":
+	{
+		"height": 64.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"aug.nect",
+				"beans/aug.nectars/nectar.js"
+			],
+			[
+				"delegate/fee",
+				"beans/feeds.stream.core/db/delegates/feeds.js"
+			],
+			[
+				"auth.profile",
+				"beans/auth.profile/index.js"
+			],
+			[
+				"aug.nectars",
+				"beans/aug.nectars/nectar.js"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 257.0,
+	"status_bar_visible": true
+}
