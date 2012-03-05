@@ -1,25 +1,25 @@
 {
-  "author": "Craig Condon",
-  "name": "emailify",
-  "description": "Make HTML pages email-safe",
-  "version": "0.0.1",
-  "repository": {
-    "type": "git",
-    "url": "git://github.com/crcn/emailify.git"
-  },
-  "main": "./lib/node/index.js",
-  "dependencies": {
-    "outcome": "0.0.x",
-    "jsdom": "0.2.10",
-    "optimist": "0.3.x",
-    "vows": "0.6.x",
-    "plugin": "0.0.x",
-    "step": "0.0.x",
-    "colors": "0.6.x",
-    "sprintf": "0.1.x"
-  },
-  "devDependencies": {},
-  "bin": {
-    "emailify": "./bin/emailify"
-  }
+    "author": "Craig Condon",
+    "name": "emailify",
+    "description": "Make HTML pages email-safe",
+    "version": "0.0.2",
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/crcn/emailify.git"
+    },
+    "main": "./lib/index.js",
+    "dependencies": {
+        "outcome": "0.0.x",
+        "jsdom": "0.2.10",
+        "optimist": "0.3.x",
+        "vows": "0.6.x",
+        "plugin": "0.0.x",
+        "step": "0.0.x",
+        "colors": "0.6.x",
+        "sprintf": "0.1.x"
+    },
+    "devDependencies": {},
+    "bin": {
+        "emailify": "./bin/emailify"
+    }
 }
