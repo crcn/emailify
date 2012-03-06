@@ -1,6 +1,6 @@
 ### Emailify makes your html documents a bit more email-safe
 
-Node.js version of [premailer](http://premailer.dialect.ca/).
+This is the node.js version of [premailer](http://premailer.dialect.ca/).
 
 ### Features
 
