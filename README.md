@@ -1,8 +1,11 @@
 ### Emailify makes your html documents a bit more email-safe
 
+Node.js version of [premailer](http://premailer.dialect.ca/).
+
 ### Features
 
 - Copies `<style />`, and `<link />` data to associated elements.
+- Strips out comments.
 - HTML compatibility checking for popular email clients. See:
 	- http://www.campaignmonitor.com/css/
 	- http://www.campaignmonitor.com/downloads/documents-tools/campaign-monitor-guide-to-css-in-email-sept-2011.pdf
