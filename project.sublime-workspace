@@ -28,10 +28,21 @@
 			}
 		},
 		{
+			"contents": "### Emailify makes your html documents a bit more email-safe\n\nThis is the Node.js version of [premailer](http://premailer.dialect.ca/).\n\n### Features\n\n- Copies `<style />`, and `<link />` data to associated elements.\n- Strips out comments.\n- HTML compatibility checking for popular email clients. See:\n	- http://www.campaignmonitor.com/css/\n	- http://www.campaignmonitor.com/downloads/documents-tools/campaign-monitor-guide-to-css-in-email-sept-2011.pdf\n	- http://www.email-standards.org/\n\n### HTML Example\n\nTurns this:\n\n```html\n<html>\n	<head>\n		<style>\n			h4 {\n				color: #ff6600;\n			}\n		</style>\n	</head>\n	<body>\n		<h4>orange header</h4>\n	</body>\n</html>\n```\n\nInto this:\n\n```html\n<html>\n	<head>\n	</head>\n	<body>\n		<h4 style=\"color: #ff6600;\">orange header</h4>\n	</body>\n</html>\n```\n\n### Testing Compatibility Screenshot\n\n![Alt command line](http://i.imgur.com/AUX7z.png)\n\n### Requirements\n\n- [Node.js](http://nodejs.org/)\n\n### Installation\n\n```\nnpm install emailify -g\n```\n\n\n### Command Line\n\n#### Usage\n\n```\n-i [input_html] -o [output_html]\n\nOptions:\n  -i, --input   [required]\n  -o, --output  \n  -t, --test    [default: false]\n```\n\nTo emailify a document, use this command:\n\n```bash\nemailify -i /my/html/file.html -o /my/html/emailified.html\n```\n\nYou can easily test a document for compatibility by adding the `-t` flag:\n\n```bash\nemailify -i /my/html/file.html -o /my/html/emailified.html -t\n```\n\nOmmit `-o` if you just want to see what emailify produces:\n\n```bash\nemailify -i /my/html/file.html\n```\n\n\n\n\n\n### Node.js API\n\n#### .parse(content[, options], callback)\n\nparses html content into email-safe html\n\n- `content` - the html content\n- `options`\n	- `test` - runs test against code for compatibility\n\n\n```javascript\nvar emailify = require('emailify'),\nfs           = require('fs')\n\nemailify.parse(fs.readFileSync('/my/email/newsletter.html', 'utf8'), function(err, content) {\n	//send newsletter\n});\n```\n\n#### .load(file[, options], callback)\n\n\nloads a html file\n\n```javascript\nvar emailify = require('emailify'),\nfs           = require('fs')\n\nemailify.load('/my/email/newsletter.html', { test: true }, function(err, content, warnings) {\n	//send newsletter\n});\n```\n\n\n\n\n",
 			"file": "README.md",
+			"file_size": 2175,
+			"file_write_time": 1331057711000000,
 			"settings":
 			{
-				"buffer_size": 2077,
+				"buffer_size": 2175,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/tmp/subl stdin 6YuWCV.txt",
+			"settings":
+			{
+				"buffer_size": 0,
 				"line_ending": "Unix"
 			}
 		},
@@ -40,6 +51,14 @@
 			"settings":
 			{
 				"buffer_size": 1951,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/tmp/subl stdin iCSoLA.txt",
+			"settings":
+			{
+				"buffer_size": 0,
 				"line_ending": "Unix"
 			}
 		},
@@ -76,7 +95,7 @@
 			"file": "lib/test/suite.js",
 			"settings":
 			{
-				"buffer_size": 0,
+				"buffer_size": 1317,
 				"line_ending": "Unix"
 			}
 		},
@@ -192,7 +211,7 @@
 			"file": "package.json",
 			"settings":
 			{
-				"buffer_size": 521,
+				"buffer_size": 589,
 				"line_ending": "Unix"
 			}
 		},
@@ -208,7 +227,7 @@
 			"file": "lib/test/index.js",
 			"settings":
 			{
-				"buffer_size": 0,
+				"buffer_size": 600,
 				"line_ending": "Unix"
 			}
 		},
@@ -216,7 +235,7 @@
 			"file": "lib/test/compatibility/test-iphone-ipad.js",
 			"settings":
 			{
-				"buffer_size": 0,
+				"buffer_size": 172,
 				"line_ending": "Unix"
 			}
 		},
@@ -224,7 +243,7 @@
 			"file": "lib/test/compatibility/test-apple-mail-4.js",
 			"settings":
 			{
-				"buffer_size": 0,
+				"buffer_size": 157,
 				"line_ending": "Unix"
 			}
 		},
@@ -232,7 +251,7 @@
 			"file": "lib/test/compatibility/test-yahoo-mail.js",
 			"settings":
 			{
-				"buffer_size": 0,
+				"buffer_size": 379,
 				"line_ending": "Unix"
 			}
 		},
@@ -240,7 +259,7 @@
 			"file": "lib/test/compatibility/test-android.js",
 			"settings":
 			{
-				"buffer_size": 0,
+				"buffer_size": 597,
 				"line_ending": "Unix"
 			}
 		},
@@ -248,7 +267,7 @@
 			"file": "lib/test/suite.js",
 			"settings":
 			{
-				"buffer_size": 0,
+				"buffer_size": 1317,
 				"line_ending": "Unix"
 			}
 		},
@@ -256,7 +275,7 @@
 			"file": "lib/test/compatibility/test-gmail.js",
 			"settings":
 			{
-				"buffer_size": 0,
+				"buffer_size": 552,
 				"line_ending": "Unix"
 			}
 		},
@@ -264,7 +283,7 @@
 			"file": "lib/test/compatibility/test-hotmail.js",
 			"settings":
 			{
-				"buffer_size": 0,
+				"buffer_size": 343,
 				"line_ending": "Unix"
 			}
 		},
@@ -283,7 +302,7 @@
 			"file": "lib/test/selectors/test-selectors.js",
 			"settings":
 			{
-				"buffer_size": 0,
+				"buffer_size": 331,
 				"line_ending": "Unix"
 			}
 		},
@@ -291,7 +310,7 @@
 			"file": "lib/test/compatibility/test-outlook-2003.js",
 			"settings":
 			{
-				"buffer_size": 0,
+				"buffer_size": 381,
 				"line_ending": "Unix"
 			}
 		},
@@ -326,7 +345,7 @@
 			"file": "src/node web/test/index.js",
 			"settings":
 			{
-				"buffer_size": 600,
+				"buffer_size": 0,
 				"line_ending": "Unix"
 			}
 		},
@@ -686,15 +705,15 @@
 					"file": "README.md",
 					"settings":
 					{
-						"buffer_size": 2077,
+						"buffer_size": 2175,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1781,
-								1781
+								472,
+								472
 							]
 						],
 						"settings":
@@ -703,13 +722,39 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 1023.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 2,
+					"file": "/tmp/subl stdin 6YuWCV.txt",
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
 					"file": "lib/index.js",
 					"settings":
 					{
@@ -726,7 +771,8 @@
 						],
 						"settings":
 						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
 						"translation.y": 1169.0,
@@ -735,33 +781,8 @@
 					"type": "text"
 				},
 				{
-					"buffer": 3,
-					"settings":
-					{
-						"buffer_size": 0,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"default_dir": "/Users/craig/Dropbox/Developer/Public/emailify/lib/test/helpers",
-							"syntax": "Packages/Text/Plain text.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
 					"buffer": 4,
+					"file": "/tmp/subl stdin iCSoLA.txt",
 					"settings":
 					{
 						"buffer_size": 0,
@@ -777,7 +798,6 @@
 						],
 						"settings":
 						{
-							"default_dir": "/Users/craig/Dropbox/Developer/Public/emailify/lib/test/helpers",
 							"syntax": "Packages/Text/Plain text.tmLanguage"
 						},
 						"translation.x": 0.0,
@@ -788,6 +808,58 @@
 				},
 				{
 					"buffer": 5,
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"default_dir": "/Users/craig/Dropbox/Developer/Public/emailify/lib/test/helpers",
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"default_dir": "/Users/craig/Dropbox/Developer/Public/emailify/lib/test/helpers",
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 7,
 					"file": "lib/test/utils.js",
 					"settings":
 					{
@@ -813,7 +885,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 6,
+					"buffer": 8,
 					"settings":
 					{
 						"buffer_size": 0,
@@ -839,11 +911,11 @@
 					"type": "text"
 				},
 				{
-					"buffer": 7,
+					"buffer": 9,
 					"file": "lib/test/suite.js",
 					"settings":
 					{
-						"buffer_size": 0,
+						"buffer_size": 1317,
 						"regions":
 						{
 						},
@@ -856,7 +928,8 @@
 						],
 						"settings":
 						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
 						"translation.y": 528.0,
@@ -865,7 +938,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 8,
+					"buffer": 10,
 					"file": "lib/test/stylesheets/test-selectors.js",
 					"settings":
 					{
@@ -892,7 +965,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 9,
+					"buffer": 11,
 					"file": "lib/test/selectorTestBatch.js",
 					"settings":
 					{
@@ -918,7 +991,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 10,
+					"buffer": 12,
 					"file": "lib/test/eachCssRule",
 					"settings":
 					{
@@ -944,7 +1017,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 11,
+					"buffer": 13,
 					"file": "lib/eachCssRule.js",
 					"settings":
 					{
@@ -970,7 +1043,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 12,
+					"buffer": 14,
 					"settings":
 					{
 						"buffer_size": 0,
@@ -996,7 +1069,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 13,
+					"buffer": 15,
 					"settings":
 					{
 						"buffer_size": 0,
@@ -1022,7 +1095,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 14,
+					"buffer": 16,
 					"file": "lib/test/Outlook 2007-2010/test-outlook.js",
 					"settings":
 					{
@@ -1048,7 +1121,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 15,
+					"buffer": 17,
 					"file": "lib/test/test-basic.js",
 					"settings":
 					{
@@ -1074,7 +1147,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 16,
+					"buffer": 18,
 					"file": "lib/lint.js",
 					"settings":
 					{
@@ -1100,7 +1173,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 17,
+					"buffer": 19,
 					"file": "lib/jquery-1.5.js",
 					"settings":
 					{
@@ -1127,7 +1200,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 18,
+					"buffer": 20,
 					"file": "examples/hello.html",
 					"settings":
 					{
@@ -1153,7 +1226,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 19,
+					"buffer": 21,
 					"file": "examples/test-1/test-1.html",
 					"settings":
 					{
@@ -1179,7 +1252,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 20,
+					"buffer": 22,
 					"file": "bin/emailify",
 					"settings":
 					{
@@ -1206,25 +1279,25 @@
 					"type": "text"
 				},
 				{
-					"buffer": 21,
+					"buffer": 23,
 					"file": "package.json",
 					"settings":
 					{
-						"buffer_size": 521,
+						"buffer_size": 589,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								519,
-								519
+								0,
+								0
 							]
 						],
 						"settings":
 						{
 							"syntax": "Packages/JavaScript/JSON.tmLanguage",
-							"tab_size": 2,
+							"tab_size": 4,
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
@@ -1234,7 +1307,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 22,
+					"buffer": 24,
 					"file": "examples/test-1/index.html",
 					"settings":
 					{
@@ -1261,65 +1334,11 @@
 					"type": "text"
 				},
 				{
-					"buffer": 23,
+					"buffer": 25,
 					"file": "lib/test/index.js",
 					"settings":
 					{
-						"buffer_size": 0,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 24,
-					"file": "lib/test/compatibility/test-iphone-ipad.js",
-					"settings":
-					{
-						"buffer_size": 0,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 25,
-					"file": "lib/test/compatibility/test-apple-mail-4.js",
-					"settings":
-					{
-						"buffer_size": 0,
+						"buffer_size": 600,
 						"regions":
 						{
 						},
@@ -1343,10 +1362,10 @@
 				},
 				{
 					"buffer": 26,
-					"file": "lib/test/compatibility/test-yahoo-mail.js",
+					"file": "lib/test/compatibility/test-iphone-ipad.js",
 					"settings":
 					{
-						"buffer_size": 0,
+						"buffer_size": 172,
 						"regions":
 						{
 						},
@@ -1370,10 +1389,10 @@
 				},
 				{
 					"buffer": 27,
-					"file": "lib/test/compatibility/test-android.js",
+					"file": "lib/test/compatibility/test-apple-mail-4.js",
 					"settings":
 					{
-						"buffer_size": 0,
+						"buffer_size": 157,
 						"regions":
 						{
 						},
@@ -1397,10 +1416,10 @@
 				},
 				{
 					"buffer": 28,
-					"file": "lib/test/suite.js",
+					"file": "lib/test/compatibility/test-yahoo-mail.js",
 					"settings":
 					{
-						"buffer_size": 0,
+						"buffer_size": 379,
 						"regions":
 						{
 						},
@@ -1413,7 +1432,8 @@
 						],
 						"settings":
 						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -1423,10 +1443,10 @@
 				},
 				{
 					"buffer": 29,
-					"file": "lib/test/compatibility/test-gmail.js",
+					"file": "lib/test/compatibility/test-android.js",
 					"settings":
 					{
-						"buffer_size": 0,
+						"buffer_size": 597,
 						"regions":
 						{
 						},
@@ -1450,10 +1470,10 @@
 				},
 				{
 					"buffer": 30,
-					"file": "lib/test/compatibility/test-hotmail.js",
+					"file": "lib/test/suite.js",
 					"settings":
 					{
-						"buffer_size": 0,
+						"buffer_size": 1317,
 						"regions":
 						{
 						},
@@ -1466,7 +1486,8 @@
 						],
 						"settings":
 						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -1476,6 +1497,60 @@
 				},
 				{
 					"buffer": 31,
+					"file": "lib/test/compatibility/test-gmail.js",
+					"settings":
+					{
+						"buffer_size": 552,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 32,
+					"file": "lib/test/compatibility/test-hotmail.js",
+					"settings":
+					{
+						"buffer_size": 343,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 33,
 					"file": "lib/test/compatibility/Outlook 2007-2010/test-outlook-2010-2010.js",
 					"settings":
 					{
@@ -1502,37 +1577,11 @@
 					"type": "text"
 				},
 				{
-					"buffer": 32,
+					"buffer": 34,
 					"file": "lib/test/selectors/test-selectors.js",
 					"settings":
 					{
-						"buffer_size": 0,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 33,
-					"file": "lib/test/compatibility/test-outlook-2003.js",
-					"settings":
-					{
-						"buffer_size": 0,
+						"buffer_size": 331,
 						"regions":
 						{
 						},
@@ -1555,7 +1604,34 @@
 					"type": "text"
 				},
 				{
-					"buffer": 34,
+					"buffer": 35,
+					"file": "lib/test/compatibility/test-outlook-2003.js",
+					"settings":
+					{
+						"buffer_size": 381,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 36,
 					"file": "lib/test/compatibility/test-outlook-2010-2010.js",
 					"settings":
 					{
@@ -1582,7 +1658,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 35,
+					"buffer": 37,
 					"file": "makefile",
 					"settings":
 					{
@@ -1608,7 +1684,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 36,
+					"buffer": 38,
 					"file": "examples/test-1/index.out.html",
 					"settings":
 					{
@@ -1634,19 +1710,19 @@
 					"type": "text"
 				},
 				{
-					"buffer": 37,
+					"buffer": 39,
 					"file": "src/node web/test/index.js",
 					"settings":
 					{
-						"buffer_size": 600,
+						"buffer_size": 0,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								382,
-								382
+								0,
+								0
 							]
 						],
 						"settings":
@@ -1661,7 +1737,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 38,
+					"buffer": 40,
 					"file": "/tmp/subl stdin 02cyVS.txt",
 					"settings":
 					{
@@ -1687,7 +1763,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 39,
+					"buffer": 41,
 					"file": "lib/web/index.js",
 					"settings":
 					{
