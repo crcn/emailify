@@ -5,10 +5,14 @@ usage('-i [input_html] -o [output_html]').
 demand('i').
 default('o').
 default('t', false).
+default('c', false).
 alias('i','input').
 alias('o','output').
 alias('t','test').
+alias('c','comments').
 argv;
+
+
 
 var fs   = require('fs'),
 emailify = require('../'),
@@ -19,7 +23,6 @@ celeri   = require('celeri');
  */
 
 function fixFile(file) {
-
 	return file.replace(/^\.\//,process.cwd() + '/').replace(/^\~/,process.env.HOME);
 
 }
@@ -37,7 +40,7 @@ var on = outcome.error(function(err) {
  */
 
 
-emailify.load(fixFile(argv.i), { test: argv.t }, on.success(function(content, warnings) {
+emailify.load(fixFile(argv.i), { test: argv.t , comments: argv.c }, on.success(function(content, warnings) {
 
 	if(argv.o) {
 
