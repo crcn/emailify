@@ -1,3 +1,4 @@
+[![build status](https://secure.travis-ci.org/crcn/emailify.png)](http://travis-ci.org/crcn/emailify)
 ### Emailify makes your html documents a bit more email-safe
 
 This is the node.js version of [premailer](http://premailer.dialect.ca/).
