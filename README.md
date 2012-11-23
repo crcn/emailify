@@ -5,7 +5,7 @@ This is the node.js version of [premailer](http://premailer.dialect.ca/).
 ### Features
 
 - Copies `<style />`, and `<link />` data to associated elements.
-- Strips out comments.
+- Strips out comments by default, but you can optionally keep them, this is useful if you intend to use VML to provide background-images.
 - HTML compatibility checking for popular email clients. See:
 	- http://www.campaignmonitor.com/css/
 	- http://www.campaignmonitor.com/downloads/documents-tools/campaign-monitor-guide-to-css-in-email-sept-2011.pdf
@@ -65,15 +65,21 @@ npm install emailify -g
 -i [input_html] -o [output_html]
 
 Options:
-  -i, --input   [required]
+  -i, --input    [required]
   -o, --output  
-  -t, --test    [default: false]
+  -t, --test     [default: false]
+  -c, --comments [default: false]
 ```
 
 To emailify a document, use this command:
 
 ```bash
 emailify -i /my/html/file.html -o /my/html/emailified.html
+```
+If you intend to keep comments, do the following:
+
+```bash
+emailify -c true -i /my/html/file.html -o /my/html/emailified.html
 ```
 
 You can easily test a document for compatibility by adding the `-t` flag:
