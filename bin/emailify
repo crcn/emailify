@@ -16,8 +16,7 @@ argv;
 
 var fs   = require('fs'),
 emailify = require('../'),
-outcome  = require('outcome'),
-celeri   = require('celeri');
+outcome  = require('outcome');
 
 /**
  */
@@ -80,17 +79,7 @@ function printWarnings(warnings) {
 	console.log('\n');
 	console.log('   Unsupported Clients'.bold);
 
-	celeri.table(toPrint, {
-		columns: {
-			type: 9,
-			value: 15,
-			platforms: 26
-		},
-		pad: {
-			'left': 3
-		},
-		horz:' ',
-		fixed: true
-	});
+
+	console.log(toPrint);
 	console.log('\n');
 }
