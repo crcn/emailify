@@ -1,3 +1,5 @@
+### This library is not actively maintained.
+
 [![build status](https://secure.travis-ci.org/crcn/emailify.png)](http://travis-ci.org/crcn/emailify)
 ### Emailify makes your html documents a bit more email-safe
 
